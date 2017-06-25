@@ -6,7 +6,7 @@
     $upper_text = strtoupper($upper_text);
     $counts = str_word_count($counts);
     $shuffle = str_shuffle($shuffle);
-    $pop = stripos($pop);
+    $pop = stripos($pop, "you");
 
 ?>
 <html>
